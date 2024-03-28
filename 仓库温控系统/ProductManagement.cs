@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sunny.UI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,13 +11,16 @@ using System.Windows.Forms;
 
 namespace 仓库温控系统
 {
-    public partial class Form1 : Form
+    public partial class ProductManagement : UIPage
     {
-        public Form1()
+        public ProductManagement()
         {
             InitializeComponent();
         }
 
-        
+        private void ProductManagement_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

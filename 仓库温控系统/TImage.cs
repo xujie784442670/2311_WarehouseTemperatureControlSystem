@@ -10,13 +10,16 @@ using System.Windows.Forms;
 
 namespace 仓库温控系统
 {
-    public partial class Form1 : Form
+    public partial class TImage : Form
     {
-        public Form1()
+        public TImage()
         {
             InitializeComponent();
         }
 
-        
+        private void uiLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
