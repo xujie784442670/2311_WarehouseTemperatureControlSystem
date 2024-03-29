@@ -188,4 +188,9 @@ namespace AcmsDao
             return QueryScalar<long>($"select seq from sqlite_sequence where name='{tableName}'");
         }
     }
+
+    public interface IResultHandler<T>
+    {
+        T HandleResult(DataRow row, string[] columnNames);
+    }
 }
