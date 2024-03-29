@@ -89,6 +89,12 @@
     <Compile Include="StoreManagement.Designer.cs">
       <DependentUpon>StoreManagement.cs</DependentUpon>
     </Compile>
+    <Compile Include="StoreRegionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StoreRegionForm.designer.cs">
+      <DependentUpon>StoreRegionForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="TemperatureControl.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </Compile>
     <EmbeddedResource Include="StoreManagement.resx">
       <DependentUpon>StoreManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StoreRegionForm.resx">
+      <DependentUpon>StoreRegionForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TemperatureControl.resx">
       <DependentUpon>TemperatureControl.cs</DependentUpon>
