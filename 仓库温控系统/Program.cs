@@ -16,7 +16,7 @@ namespace 仓库温控系统
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormModBusTest());
+            Application.Run(new FormMain());
         }
     }
 }
